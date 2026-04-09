@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power Tech Engineers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* HERO SECTION WITH BACKGROUND */
+.hero {
+    background: url(YOUR-BACKGROUND.JPG) no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+/* DARK OVERLAY */
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXT STYLE */
+.overlay h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.call { background: #28a745; }
+.whatsapp { background: #25D366; }
+
+/* SECTION */
+section {
+    padding: 20px;
+}
+
+/* SERVICE BOX */
+.service-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FORM */
+form {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="overlay">
+        <h1>Power Tech Engineers</h1>
+        <p>AC Service & Repair Experts</p>
+
+        <a class="btn call" href="tel:8424810341">
+            <i class="fa-solid fa-phone"></i> Call Now
+        </a>
+
+        <a class="btn whatsapp" href="https://wa.me/918424810341">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</div>
+
+<section>
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <img src=AC-SERVICE.JPG>
+        <h3>AC Service</h3>
+        <p>Complete AC cleaning, cooling check and performance improvement.</p>
+    </div>
+
+    <div class="service-box">
+        <img src=GAS-CHARGING.JPG>
+        <h3>Gas Charging</h3>
+        <p>Proper gas refill with leakage check for better cooling.</p>
+    </div>
+
+    <div class="service-box">
+        <img src=work2.jpg>
+        <h3>AC Installation</h3>
+        <p>Safe and professional installation service.</p>
+    </div>
+
+    <div class="service-box">
+        <img src=PCB-REPAIR.JPG>
+        <h3>PCB Repair</h3>
+        <p>Expert repair for all AC PCB issues.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Book Service</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Mobile Number" required>
+
+        <select required>
+            <option value="">Select Service</option>
+            <option>AC Service</option>
+            <option>Gas Charging</option>
+            <option>AC Installation</option>
+            <option>PCB Repair</option>
+        </select>
+
+        <textarea placeholder="Describe Your Problem"></textarea>
+
+        <button type="submit">Submit Request</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Power Tech Engineers</p>
+</footer>
+
+</body>
+</html>
